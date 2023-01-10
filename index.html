@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Comperhention Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- This is the container for the quiz -->
+    <div id="quiz">
+        <!-- This is the German text -->
+        <p>Das ist ein Beispieltext auf Deutsch.</p>
+        <p>Hier ist noch ein weiterer Absatz auf Deutsch.</p>
+
+        <!-- These are the quiz questions -->
+        <p>What is this an example of?</p>
+        <button class="answer-button" data-correct="true">A German text</button>
+        <button class="answer-button" data-correct="false">An English text</button>
+
+        <p>What language is this written in?</p>
+        <button class="answer-button" data-correct="true">German</button>
+        <button class="answer-button" data-correct="false">English</button>
+
+        <!-- This is the button to check the answers -->
+        <button id="check-answers-button">Check answers</button>
+
+        <!-- This is the element to display the results -->
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
