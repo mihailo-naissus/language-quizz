@@ -15,8 +15,7 @@ function checkAnswers() {
             (button.dataset.correct === "false" && !button.classList.contains('selected'))) {
             numCorrect++;
         }
-
-        // Remove the "selected" class from all the buttons
+ // Remove the "selected" class from all the buttons
         button.classList.remove('selected');
     });
 
@@ -27,7 +26,7 @@ function checkAnswers() {
     resultsElement.innerHTML = `You got ${numCorrect} answers correct!`;
 }
 
-// Get the "check answers" button
+// Get a "check answers" button.
 const checkAnswersButton = document.querySelector('#check-answers-button');
 
 // Add a click event listener to the button
