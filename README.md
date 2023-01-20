@@ -10,4 +10,4 @@ The code also gives each answer button special powers, like the ability to be se
 
 To use this code, you'll need to set up your quiz in a way that the code can understand, like creating elements with the correct classes and data attributes. Once that's done, the code will take care of the rest and help you create an interactive quiz.
 
-This quizz is still incoplete.
+This quizz is not working at the moment.
