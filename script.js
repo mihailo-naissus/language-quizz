@@ -1,9 +1,9 @@
 // This function will be called when the user clicks the "check answers" button
 function checkAnswers() {
-    // Find all the answer buttons
+    // Find answer button
     const answerButtons = document.querySelectorAll('.answer-button');
 
-    // Keep track of the number of correct answers
+    // Keep track of the num of correct answers
     let numCorrect = 0;
 
     // Loop through all the answer buttons
