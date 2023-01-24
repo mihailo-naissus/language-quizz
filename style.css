@@ -6,6 +6,7 @@ body {
     background-color: #f1f1f1;
 }
 
+
 #quiz {
     max-width: 800px;
     margin: 0 auto;
@@ -17,11 +18,13 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 #quiz p {
     margin: 20px 0;
     font-size: 18px;
     color: #333;
 }
+
 
 .answer-button {
     border: none;
