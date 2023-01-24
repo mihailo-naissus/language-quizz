@@ -3,9 +3,11 @@ function checkAnswers() {
     // Find answer button
     const answerButtons = document.querySelectorAll('.answer-button');
 
+    
     // Keep track of the num of correct answers
     let numCorrect = 0;
 
+    
     // Loop through all the answer buttons
     answerButtons.forEach(button => {
         // If the button is marked as correct and the user selected it, or
@@ -19,12 +21,14 @@ function checkAnswers() {
         button.classList.remove('selected');
     });
 
+    
     // Find the element to display the results
     const resultsElement = document.querySelector('#results');
 
     // Update the results element with the number of correct answers
     resultsElement.innerHTML = `You got ${numCorrect} answers correct!`;
 }
+
 
 // Get a "check answers" button.
 const checkAnswersButton = document.querySelector('#check-answers-button');
