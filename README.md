@@ -2,7 +2,6 @@
 Trying to make language quizz in HTML, CSS and JS
 This code is not finished at the moment
 
-
 The code in this repository is like the game rules for a multiple choice language quiz. The code tells the quiz what to do when the player (the person taking the quiz) clicks the 'check answers' button.
 
 
