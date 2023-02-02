@@ -6,7 +6,6 @@ function checkAnswers() {
     
     // Keep track of the num of correct answers
     let numCorrect = 0;
-
     
     // Loop through all the answer buttons
     answerButtons.forEach(button => {
