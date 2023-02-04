@@ -2,7 +2,6 @@
 function checkAnswers() {
     // Find answer button
     const answerButtons = document.querySelectorAll('.answer-button');
-
     
     // Keep track of the num of correct answers
     let numCorrect = 0;
