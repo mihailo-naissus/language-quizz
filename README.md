@@ -4,7 +4,6 @@ This code is not finished at the moment
 
 The code in this repository is like the game rules for a multiple choice language quiz. The code tells the quiz what to do when the player (the person taking the quiz) clicks the 'check answers' button.
 
-
 Just like how a game has different levels, the code breaks down the quiz into small parts called 'answer buttons'. The code will check each answer button to see if the player picked the right one. It keeps track of how many answers the player gets right and will show the player their score at the end of the quiz.
 
 
