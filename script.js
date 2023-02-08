@@ -21,6 +21,7 @@ function checkAnswers() {
 
     
     
+    
     // Find the element to display the results
     const resultsElement = document.querySelector('#results');
 
