@@ -19,8 +19,7 @@ function checkAnswers() {
         button.classList.remove('selected');
     });
 
-    
-    
+
     
     // Find the element to display the results
     const resultsElement = document.querySelector('#results');
