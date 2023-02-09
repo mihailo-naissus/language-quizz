@@ -7,7 +7,6 @@ The code in this repository is like the game rules for a multiple choice languag
 
 Just like how a game has different levels, the code breaks down the quiz into small parts called 'answer buttons'. The code will check each answer button to see if the player picked the right one. It keeps track of how many answers the player gets right and will show the player their score at the end of the quiz.
 
-
 The code also gives each answer button special powers, like the ability to be selected or not selected, by using a special class called "selected". It also uses something called data attributes to remember if an answer button is the correct one or not.
 
 
