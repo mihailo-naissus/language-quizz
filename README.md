@@ -10,7 +10,6 @@ Just like how a game has different levels, the code breaks down the quiz into sm
 The code also gives each answer button special powers, like the ability to be selected or not selected, by using a special class called "selected". It also uses something called data attributes to remember if an answer button is the correct one or not.
 
 
-
 To use this code, you'll need to set up your quiz in a way that the code can understand, like creating elements with the correct classes and data attributes. Once that's done, the code will take care of the rest and help you create an interactive quiz.
 
 
